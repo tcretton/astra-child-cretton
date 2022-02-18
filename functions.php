@@ -46,15 +46,21 @@ function my_login_logo_url() {
 	add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 /* Box Info */
 function info_add_dashboard_widgets() {
-	wp_add_dashboard_widget('wp_dashboard_widget', 'Sobre o site', 'info_theme_info');
+	wp_add_dashboard_widget('wp_dashboard_widget', 'Sobre', 'info_theme_info');
 }
 
 add_action('wp_dashboard_setup', 'info_add_dashboard_widgets' );
 
 function info_theme_info() {
 	echo "<ul>
-		<li><strong>Site desenvolvido por:</strong> Cretton Info</li>
-		<li><strong>Website:</strong> <a href='https://www.cretton.info' target='_blank'>https://www.cretton.info</a></li>
-		<li><strong>Contato:</strong> <a href='mailto:cretton-info@gmail.com'>contato@cretton.info</a></li>
+		<li>
+			<strong>Desenvolvido por:</strong> Cretton Info
+		</li>
+		<li>
+			<strong>Website:</strong> <a href='https://www.cretton.info' target='_blank'>https://www.cretton.info</a>
+		</li>
+		<li>
+			<strong>Contato:</strong> <a href='mailto:cretton-info@gmail.com'>contato@cretton.info</a>
+		</li>
 	</ul>";
 }
