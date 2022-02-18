@@ -20,26 +20,3 @@ Template: astra
 body.login {
   background: #cdd1c4;
 }
-
-/* Botão Voltar ao Topo */
-.voltar-ao-topo {
-  background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset;
-  border-radius: 2px;
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
-  cursor: pointer;
-  height: 35px;
-  padding: 0px 10px 40px 10px;
-  position: fixed;
-  bottom: 30px;
-  right: 12px;
-  text-align: center;
-  width: 40px;
-  z-index: 999;
-}
-.voltar-ao-topo:hover {
-  background: #fa5742;
-  color: #fff;
-}
