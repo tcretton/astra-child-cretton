@@ -1,0 +1,22 @@
+/**
+Theme Name: Astra Child
+Author: Cretton Info
+Author URI: https://cretton.info
+Description: O Astra é um tema WordPress rápido, totalmente personalizável e bonito, adequado para blog, portfólio pessoal, site de negócios e loja WooCommerce. É muito leve (menos de 50 KB no frontend) e oferece velocidade incomparável.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.login h1 a {
+    background-image: url('logo.png');
+    background-size: 250px 200px;
+    width: 250px;
+    height: 200px;
+    }
+
+body.login {
+background: #cdd1c4;
+}
