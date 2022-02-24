@@ -41,7 +41,7 @@ function my_login_logo_url() {
 	
 /*Função que adiciona o nome do seu site, no momento que o mouse passa por cima da logo*/
 	function my_login_logo_url_title() {
-	return 'Cretton informatica - Voltar para Home';
+	return 'Cretton informatica - Home';
 	}
 	add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 /* Box Info */
