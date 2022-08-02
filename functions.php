@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Astra Child
+ * @package Astra Child - cretton.info
  * @since 1.0.0
  */
 
