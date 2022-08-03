@@ -49,15 +49,18 @@ function info_add_dashboard_widgets() {
 add_action('wp_dashboard_setup', 'info_add_dashboard_widgets' );
 
 function info_theme_info() {
-	echo "<ul>
-		<li>
-			<strong>Desenvolvido por:</strong> Cretton Info
-		</li>
-		<li>
-			<strong>Website:</strong> <a href='https://www.cretton.info' target='_blank'>https://www.cretton.info</a>
-		</li>
-		<li>
-			<strong>Contato:</strong> <a href='mailto:cretton.info@gmail.com'>contato@cretton.info</a>
-		</li>
-	</ul>";
+echo "<ul>
+	<li>
+		<strong>Desenvolvido por:</strong> Cretton Info
+	</li>
+	<li>
+		<strong>Licença:</strong> MIT
+	</li>
+	<li>
+		<strong>Site:</strong> <a href='https://www.cretton.info' target='_blank'>https://www.cretton.info</a>
+	</li>
+	<li>
+		<strong>e-mail:</strong> <a href='mailto:cretton.info@gmail.com'>contato@cretton.info</a>
+	</li>
+</ul>";
 }
