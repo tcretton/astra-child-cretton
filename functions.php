@@ -29,6 +29,14 @@ function my_custom_login_stylesheet() {
 }
 add_action( 'login_enqueue_scripts', 'my_custom_login_stylesheet' );
 
+/**
+* Remover rastros de WordPress (meta generator, RSD, WLW manifest)
+*/
+remove_action( 'wp_head', 'wp_generator' );
+add_filter( 'the_generator', '__return_empty_string' );
+remove_action( 'wp_head', 'rsd_link' );
+remove_action( 'wp_head', 'wlwmanifest_link' );
+
 /*Função que altera a URL, trocando pelo endereço do seu site*/
 function my_login_logo_url() {
 	return get_bloginfo( 'url' );
